@@ -153,6 +153,6 @@ function signedCookies (obj, secret) {            //当客户端发送cookie时
   return ret
 }
 ```
->8. 解析后的unsigned cookie保存在req.cookies中，而解析后的signed cookie只保存在req.signedCookies中。使用cookie-parser插件，后续代码直接使用req.cookies或者req.signedCookies即可
+>8. 解析后的unsigned cookie保存在req.cookies中，而解析后的signed cookie只保存在req.signedCookies中
 
 ## 三  代码测试
