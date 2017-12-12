@@ -157,3 +157,11 @@ function signedCookies (obj, secret) {            //当客户端发送cookie时
 
 ## 三  代码测试
 * 运行时的错误
+![image](C:\Users\acer\Desktop\image\error1.png)
+>没有权限：利用以前编写的修改权限js文件04-my-chomd.js将权限修改成777
+![image](C:\Users\acer\Desktop\image\error2.png)
+>文件目录等未找到：在index.js首行添加#!/usr/bin/node
+![image](C:\Users\acer\Desktop\image\error3.png)
+>找不到cookie模块：利用npm install安装模块
+* 运行成功(没有return undefined和false)
+![image](C:\Users\acer\Desktop\image\finish.png)
