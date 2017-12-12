@@ -158,11 +158,11 @@ function signedCookies (obj, secret) {            //当客户端发送cookie时
 ## 三  代码测试
 - 运行时的错误
 1. 没有权限：利用以前编写的修改权限js文件04-my-chomd.js将权限修改成777
-![image](https://github.com/caoqiann/cookie-parser/blob/master/error1.png)
+> ![image](https://github.com/caoqiann/cookie-parser/blob/master/error1.png)
 2. 文件目录等未找到：在index.js首行添加#!/usr/bin/node
-![image](https://github.com/caoqiann/cookie-parser/blob/master/error2.png)
+> ![image](https://github.com/caoqiann/cookie-parser/blob/master/error2.png)
 3. 找不到cookie模块：利用npm install安装模块
-![image](https://github.com/caoqiann/cookie-parser/blob/master/error3.png)
+> ![image](https://github.com/caoqiann/cookie-parser/blob/master/error3.png)
 
 - 运行成功(没有return undefined和false)
-![image](https://github.com/caoqiann/cookie-parser/blob/master/finish.png)
+> ![image](https://github.com/caoqiann/cookie-parser/blob/master/finish.png)
